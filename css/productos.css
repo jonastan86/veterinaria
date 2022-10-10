@@ -1,0 +1,63 @@
+/**********TABLE PRODUCTS*************/
+
+.contenedor-productos {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    margin: 30px;
+    
+    justify-items:center;
+   }
+
+.tarjetas-productos img{
+    width: 30%;
+}
+
+.tarjetas-productos h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #129;
+}
+.precio{
+    font-size: 40px;
+    color: #155;
+   text-shadow: 2px 0px #111;
+}
+
+.precio-antes{
+    font-size: 20px;
+    color: #155;
+   text-decoration: line-through;
+}
+   .tarjetas-productos {
+    padding: 30px;
+    border: 1px solid #111;
+    margin: 20px;
+    width: 350px;
+    height: 400px; 
+    text-align: center;
+    border-radius: 3px;
+    background-color: #fff;
+   }
+   
+
+   @media (max-width:1250px) {
+    .contenedor-productos {
+        width: 40%;
+        grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr;
+    }
+}
+
+@media (max-width:1000px) {
+    .contenedor-productos {
+        width: auto;
+        grid-template: 1fr 1fr 1fr 1fr 1fr/ 1fr;
+    }
+}
+
+.tarjetas-productos:hover {
+    border: 4px solid #111;
+    width: 353px;
+    height: 403px; 
+    transition: height 0.5s, width 0.5s;
+    background-color: #ddd;
+   }

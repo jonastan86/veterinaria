@@ -1,0 +1,30 @@
+.noticias-content {
+    width: 90%;
+    padding: 20px;
+    margin: 40px;
+    
+}
+
+.noticias p {
+    font-size: 18px;   
+}
+
+.noticias h2 {
+    font-size: 28px;
+    text-align: center;   
+}
+
+.noticias-content li{
+    font-size: 18px;
+    color: #888;
+}
+.noticias-content img {
+    width: 90%;
+   
+}
+
+@media (min-width:1000px){
+.noticias-content {
+    width: 70%;
+}
+}

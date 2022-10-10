@@ -1,0 +1,63 @@
+#menu-bar{
+    display: none;
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+li {
+    list-style:none;
+}
+
+.menu{
+    position: absolute;
+    top: 50px;/*para que el menu se despliegue por debajo del menu*/
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #ffc536;
+    transition: all 0.5s;
+    transform:  translateX(-100%);/*esconder el menu*/
+}
+
+.menu a{
+    display: block;
+    color: #111;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu a:hover {
+    background:  rgba(255, 255, 255, 0.5);
+}
+
+#menu-bar:checked ~ .menu { /*cuando este con el check va a seleccionar al menu*/
+
+  transform:  translateX(0%);/*muestro el menu*/
+}
+
+@media (min-width:1000px) {
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+
+    .menu a {
+        border: none;
+    }
+
+    header label {/*ocultamos el icono del menu */
+        display: none;
+    }
+}
+
+
