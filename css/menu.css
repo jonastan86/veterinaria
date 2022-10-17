@@ -33,7 +33,7 @@ li {
 }
 
 .menu a:hover {
-    background:  rgba(255, 255, 255, 0.5);
+    color:  #944ce9;
 }
 
 #menu-bar:checked ~ .menu { /*cuando este con el check va a seleccionar al menu*/

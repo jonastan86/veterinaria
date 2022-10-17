@@ -1,5 +1,5 @@
 #info {
-    background: #333;
+    background: #944ce9;
     color: #fff;
     text-align: center;
 }
@@ -19,7 +19,14 @@
     height: 150px;
     border-radius: 50%;
     border: 5px solid #fff
+}
 
+#info h4{
+    font-size: 20px;
+}
+
+#info h3{
+    font-size: 30px;
 }
 
 @media (min-width:450px) {
