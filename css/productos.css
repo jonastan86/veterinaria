@@ -37,9 +37,12 @@
     text-align: center;
     border-radius: 3px;
     background-color: #fff;
+    
    }
+   .tarjetas-productos a{
+    text-decoration: none;
    
-
+   }
    @media (max-width:1250px) {
     .contenedor-productos {
         width: 40%;
@@ -55,7 +58,7 @@
 }
 
 .tarjetas-productos:hover {
-    border: 4px solid #111;
+    border: 4px solid #944ce9;
     width: 353px;
     height: 403px; 
     transition: height 0.5s, width 0.5s;

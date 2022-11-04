@@ -7,16 +7,18 @@
 
 .noticias p {
     font-size: 18px;   
+    
 }
 
 .noticias h2 {
     font-size: 28px;
-    text-align: center;   
+    text-align: center; 
+    color: #944ce9;  
 }
 
 .noticias-content li{
     font-size: 18px;
-    color: #888;
+    color: #944ce9;
 }
 .noticias-content img {
     width: 90%;
